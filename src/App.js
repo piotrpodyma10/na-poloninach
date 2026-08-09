@@ -1,4 +1,5 @@
 import React from 'react'
+import PetsIcon from '@mui/icons-material/Pets'
 import './App.css'
 import heroImage from './assets/2026-08-09_10h43_14.png'
 import gallery1 from './assets/2026-08-09_10h37_15.png'
@@ -296,24 +297,7 @@ function App() {
                 </li>
                 <li>
                   <span className='icon'>
-                    <svg
-                      viewBox='0 0 24 24'
-                      fill='none'
-                      stroke='#111'
-                      strokeWidth='1.9'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      width='24'
-                      height='24'
-                    >
-                      <path d='M7.2 5.1c-.9 0-1.6.7-1.6 1.6v1.2c0 .7.4 1.3.9 1.6l1 .7' />
-                      <path d='M16.8 5.1c.9 0 1.6.7 1.6 1.6v1.2c0 .7-.4 1.3-.9 1.6l-1 .7' />
-                      <path d='M7.8 10.9c0 2.1 1.7 3.8 3.8 3.8h.8c2.1 0 3.8-1.7 3.8-3.8' />
-                      <path d='M9.7 14.2v-1.8' />
-                      <path d='M14.3 14.2v-1.8' />
-                      <path d='M8.4 18.2c.8-.6 1.7-.9 2.7-.9s1.9.3 2.7.9' />
-                      <path d='M10.9 7.6c0-1 .8-1.8 1.8-1.8s1.8.8 1.8 1.8' />
-                    </svg>
+                    <PetsIcon className='pets-icon' />
                   </span>
                   Przyjazne miejsce dla zwierzaków
                 </li>
