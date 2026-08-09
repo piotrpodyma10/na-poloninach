@@ -8,6 +8,9 @@ import gallery3 from './assets/2026-08-09_10h37_48.png'
 import gallery4 from './assets/2026-08-09_10h38_07.png'
 import gallery5 from './assets/2026-08-09_10h43_26.png'
 import gallery6 from './assets/2026-08-09_11h32_33.png'
+import photo1 from './assets/photo1.jpeg'
+import photo3 from './assets/photo3.jpeg'
+import photo5 from './assets/photo5.jpeg'
 import pokoj1 from './assets/pokoj1.png'
 import pokoj2 from './assets/pokoj2.png'
 import pokoj3 from './assets/pokoj3.png'
@@ -61,7 +64,7 @@ const rooms = [
   },
 ]
 
-const gallery = [gallery6, gallery1, gallery2, gallery3, gallery4, gallery5]
+const gallery = [gallery6, gallery1, gallery2, gallery3, gallery4, gallery5, photo1, photo5, photo3]
 
 function App() {
   return (
